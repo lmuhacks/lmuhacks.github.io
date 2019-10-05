@@ -1,6 +1,6 @@
 @font-face {
-     font-family: 'pixel';
-     src: url('./fonts/pixel.ttf');
+    font-family: 'pixel';
+    src: url('./fonts/pixel.ttf');
 }
 
 html, body {
@@ -17,11 +17,11 @@ html, body {
 }
 
 #logo {
-     margin-top: 3%;
+    margin-top: 3%;
 }
 
 .content {
-     float: left;
+    float: left;
 }
 
 .sidebar {
@@ -36,51 +36,51 @@ html, body {
 }
 
 .sidebarContent {
-     background-color: #bcdeff;
-     border: 5px solid white;
-     border-radius: 10px;
-     margin: 20px;
-     width: 200px;
+    background-color: #bcdeff;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    width: 200px;
 }
 
 .sidebarLink {
     border-bottom: 2px solid white;
     font-family: 'Poppins Semi-Bold', sans-serif;
-     font-size: 23px;
-     padding: 16px 0px 16px 0px;
-     text-align: center;
+    font-size: 23px;
+    padding: 16px 0px 16px 0px;
+    text-align: center;
 }
 
 .sidebarLink:hover {
-     background-color: white;
-     font-style:italic;
+    background-color: white;
+    font-style:italic;
 }
 
 .sidebarContent a {
     color: #ab2c32;
     font-weight: bold;
-     text-decoration: none;
+    text-decoration: none;
 }
 
 .sections {
     float: right;
-     width: 75%;
+    width: 75%;
 }
 
 .section {
-     background-color: white;
-      border-radius: 10px;
-      font-family: 'Didact Gothic', sans-serif;
-      font-size: 22px;
-     margin: 20px 80px 50px 0px;
-     padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 22px;
+    margin: 20px 80px 50px 0px;
+    padding: 20px;
 }
 
 .sectionTitle {
     color: #347fba;
-     font-family: 'pixel';
-     font-size: 80px;
-     padding-bottom: 10px;
+    font-family: 'pixel';
+    font-size: 80px;
+    padding-bottom: 10px;
 }
 
 #schedule {
@@ -88,8 +88,8 @@ html, body {
 }
 
 .person img {
-    width: 200px;
     height: 200px;
+    width: 200px;
 }
 
 .personDescription {
@@ -102,6 +102,6 @@ html, body {
 }
 
 .personTitle {
-    font-style: italic;
     font-size: 20px;
+    font-style: italic;
 }
