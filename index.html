@@ -1,314 +1,161 @@
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-     <head>
-          <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Poppinsl&display=swap" rel="stylesheet">
-          <link rel="stylesheet" type="text/css" href="index.css">
-          <meta charset="utf-8">
-          <title>LMUHacks</title>
-     </head>
-     <body>
-          <div class="header">
-               <img id="logo" type="png" src="./images/logo.png"></img>
-          </div>
-          <div class="content">
-               <div class="sidebar">
-                    <div class="sidebarContent">
-                         <a href="#about">
-                              <div class="sidebarLink">
-                                   About
-                              </div>
-                         </a>
-                         <a href="#sponsors">
-                              <div class="sidebarLink">
-                                   Sponsors
-                              </div>
-                         </a>
-                         <a href="#details">
-                              <div class="sidebarLink">
-                                   Event Details
-                              </div>
-                         </a>
-                         <a href="#register">
-                              <div class="sidebarLink">
-                                   Register
-                              </div>
-                         </a>
-                         <a href="#pillars">
-                              <div class="sidebarLink">
-                                   Pillars
-                              </div>
-                         </a>
-                         <a href="#becomesponsor">
-                              <div class="sidebarLink">
-                                   Sponsorship Info
-                              </div>
-                         </a>
-                         <a href="#faq">
-                              <div class="sidebarLink">
-                                   FAQ
-                              </div>
-                         </a>
-                         <a href="#who">
-                              <div class="sidebarLink">
-                                   Who
-                              </div>
-                         </a>
-                    </div>
-               </div>
-               <div class="sections">
-                    <div class="section" id="about">
-                         <div class="sectionTitle">About</div>
-                         <i>> What is LMUHacks?</i>
-                         <p>LMUHacks is a hackathon at Loyola Marymount University (LMU) for LMU students, by LMU students!
-                              We are run by LMU's chapter of the Association for Computing Machinery (ACM), LMU's chapter of
-                              the Society of Women Engineers (SWE), and LMU's chapter of the Institute of Electrical and Electronics
-                              Engineers (IEEE). Additionally, LMUHacks is supported by LMU's Computer Science department and LMU's
-                              Career and Professional Development department.</p>
-                         <i>> What is a hackathon?</i>
-                         <p>A hackathon is an event where a group of people (or "hackers") form small
-                              teams and collaborate to build a minimum-viable product within a limited
-                              period of time. Usually, teams are encouraged to build a project with
-                              technology or resources that they are not familiar with, so that they can
-                              learn as much as possible. At the end of the event, teams show off their
-                              projects and can compete for prizes in a variety of categories.</p>
-                         <i>> Why have a hackathon at LMU?</i>
-                         <p>Firstly, hackathons have many benefits! They can provide those with
-                         little experience in a subject area with a beginner-friendly, pressure-free
-                         introduction to the topic. It also provides hackers with working projects that
-                         can be displayed on resumes, shown off to employers, and even continued
-                         into a larger-scale operation. And, of course, hackathons are a great way
-                         to meet new people, get some swag, and have a good time!</p>
-                         <p>The purpose of a hackathon at LMU is not only to get all the benefits
-                              listed above, but additionally to promote interdisciplinary collaboration.
-                              LMUHacks is open to all majors, and specifically targeted at computer
-                              science majors, engineering majors, and animation majors. It also will
-                              teach students new skills that they can use in their future academic
-                              classes and professional careers.</p>
-                         <p>Lastly, lots of other large schools have hackathons. Since LMU is
-                              growing and developing each and every year, we think it is a great idea
-                              for LMU to have its own hackathon that it can be proud of, and that great
-                              and creative ideas can be developed from.</p>
+<html lang="en">
+<head>
+   <!-- Need about page, sponsors, details, register with embedded form, pillars, sponsorship info, faq, about us,  -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>LMU HACKS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 
-                    </div>
-                    <div class="section" id="sponsors">
-                         <div class="sectionTitle">Sponsors</div>
-                         <img class="sponsorLogo" src="./images/te-logo.jpg"></img>
-                         <img class="sponsorLogo" src="./images/firefox.png"></img>
-                    </div>
-                    <div class="section" id="details">
-                         <div class="sectionTitle">Event Details</div>
-                         <i>> Who?</i>
-                         <p>LMUHacks is open to all majors, but computer science, engineering,
-                              and animation majors are specifically encouraged to attend! And, of
-                              course, it is open to all years! No experience needed to attend!</p>
-                         <i>> When?</i>
-                         <p>LMUHacks will take place on February 1st, from 10am to 10pm. The
-                              schedule is as follows:</p>
-                         <div id="schedule">
-                              <p>10:00am - Check-in</p>
-                              <p>10:30am - Opening Ceremony</p>
-                              <p>11:00am - Team Building</p>
-                              <p>11:00am - Hacking Begins</p>
-                              <p>11:00am - JavaScript Basics Workshop</p>
-                              <p>11:30am - Blockchain Workshop</p>
-                              <p>12:00pm - Lunch</p>
-                              <p>1:00pm - Basic Web Development Workshop</p>
-                              <p>1:00pm - React Classes/Hooks Workshop</p>
-                              <p>2:00pm - Surprise Activity</p>
-                              <p>3:00pm - API calls in JavaScript Workshop by TechEmpower</p>
-                              <p>5:30pm - Project Demos: Investor Style Workshop by Mozilla</p>
-                              <p>6:00pm - Dinner</p>
-                              <p>7:00pm - Surprise Activity</p>
-                              <p>8:30pm - Project Submission Deadline</p>
-                              <p>8:45pm - Judging</p>
-                              <p>9:30pm - Closing Ceremony</p>
-                         </div>
-                         <i>> Where?</i>
-                         <p>LMUHacks will take place in and around Pereira Quad. Specifically,
-                              in Doolan Hall and Pereira Hall.
-                              <a href="https://www.lmu.edu/resources/campusmaps/interactivewestchestercampusmap/">Map of LMU</a></p>
-                         <i>> What are the categories?</i>
-                         <ul>
-                              <li>TechEmpower's Best Overall Hack</li>
-                              <li>Most Creative Hack</li>
-                              <li>Best Hack for Good</li>
-                              <li>Best Freshman/Transfer Student Hack</li>
-                              <li>Mozilla's State of the Internet</li>
-                         </ul>
-                    </div>
-                    <div class="section" id="register">
-                         <div class="sectionTitle">Register</div>
-                         <p>Click <a href="https://forms.gle/CpAwmMHf9BEFV7C7A">here</a> for the Google Form, or fill it out below:</p>
-                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKMyLwyIpjstcd_UISajQMC3aw20l1afjd2SAE7hsZn9DIVg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">
-                              Loading…
-                         </iframe>
-                         <p>
-                         Student Volunteer: <a href="https://forms.gle/2h33WzNBVRBsKY4y8">https://forms.gle/2h33WzNBVRBsKY4y8</a>
-                         <br>Faculty/Alumni Volunteer: <a href="https://forms.gle/GYaEzsYic7o9Z4WCA">https://forms.gle/GYaEzsYic7o9Z4WCA</a>
-                         </p>
-                    </div>
-                    <div class="section" id="pillars">
-                         <div class="sectionTitle">Pillars</div>
-                              <p>The three pillars below are the areas that LMUHacks
-                                   focuses on:</p>
-                              <h1>Inclusivity</h1>
-                              <p>LMUHacks is open to all LMU students, and encourages
-                                   students who might not know a lot about technology to
-                                   join and learn. We strive to create an event at which
-                                   everyone feels included, welcomed, and encouraged to
-                                   do their best work.</p>
-                              <h1>Empowerment</h1>
-                              <p>Through technical workshops and mentorship
-                                   throughout the day, LMUHacks hopes to empower students by
-                                   providing them with the tools they need to succeed and
-                                   giving them the freedom to pursue their ideas.</p>
-                              <h1>Engagement</h1>
-                              <p>With the "Hack for Good" category, LMUHacks is encouraging students
-                                   to create mindful projects that have the potential to influence
-                                   the world around them. We hope to provide students with more
-                                   information on how a career in tech can benefit communities of
-                                   all scales.</p>
-                    </div>
-                    <div class="section" id="becomesponsor">
-                         <div class="sectionTitle">Become a sponsor</div>
-                         <p>We have three sponsorship tiers:</p>
-                         <div id="tiersContainer">
-                              <img id="tiers" src="./images/tiers.png"></img>
-                         </div>
-                         <p>Please email us at <a href="mailto:lmuacm0@gmail.com">LMUACM0@gmail.com</a>
-                         if you are interested in getting involved as a sponsor! </p>
-                         <br>
-                         <i>> What is the money for?</i>
-                         <p>The money is for items such as category prizes, t-shirts, meals, snacks, and drinks for
-                              all attendees!</p>
-                         <i>> What are the benefits of becoming a sponsor?</i>
-                         <p>Sponsors are able to meet directly with students and inform them about their organization,
-                              support an awesome event that will benefit the entire LMU community, and get their name on some swag!</p>
-                         <i>> Can my organization get involved without becoming a tiered sponsor?</i>
-                         <p>We are flexible with how organizations can get involved with LMUHacks, and would be happy
-                              to talk to you about different options! Please email us at
-                              <a href="mailto:lmuacm0@gmail.com">LMUACM0@gmail.com</a>.</p>
-                         <i>> What other ways can my organization get involved at the actual hackathon?</i>
-                         <p>Mentors to help hackers debug their code are always needed, so if any individuals from
-                              your organization would be willing to work directly with students on their projects, please
-                              see the form link below.</p>
-                         <br>
-                         <p>If you or someone from your organization would like to get involved, please see more details
-                              about requirements and time commitments <a href="https://shorturl.at/acMV0">here</a>, and then visit
-                              the sign-up form <a href="https://forms.gle/27zh6jJ4mQZSdxFS9">here.</a></p>
-                    </div>
-                    <div class="section" id="faq">
-                         <div class="sectionTitle">FAQ</div>
-                         <i>> I'm not a computer science major, engineering major, or animation
-                              major. Can I still attend LMUHacks?</i>
-                         <p>Of course! All you need to attend LMUHacks is an interest in tech and
-                         an eagerness to learn.</p>
-                         <i>> What should I bring?</i>
-                         <p>Bring your laptop and charger (if you have one, if not, that's okay too),
-                              a reusable water bottle, comfortable clothes, and some energy!</p>
-                         <i>> Is food provided?</i>
-                         <p>Lunch and dinner will be provided for all, and at the opening ceremony
-                         we will have coffee and limited snacks. So, we recommend eating
-                         breakfast before you come.</p>
-                         <i>> Am I able to attend if I can only stay for part of the time?</i>
-                         <p>Participants who cannot attend the entirety of the event are not allowed
-                         to participate, since it is unfair to students who are able to attend the whole
-                         time. For questions on this policy, or to inquire about an exception, please email us. </p>
-                         <i>> What swag am I going to get?</i>
-                         <p>A t-shirt, and perhaps a prize!</p>
-                         <i>> Is there a code of conduct?</i>
-                         <p>Yes! Read below:</p>
-                         <p>
-                              LMUHacks is committed to an inclusive space for all hackers and does not tolerate any misconduct, discrimination, or harassment of any kind. We believe LMU students at LMUHacks should be able to participate in a safe & respectful environment to encourage their learning outside of the classroom.
-                              <br>As the event is held on campus, LMUHacks abides by the Lion’s Code and Student Code of Conduct. The Student Code & Policies can be found <a href="https://studentaffairs.lmu.edu/about/osccr/studentcodespolicies/">here</a> in more detail.
-                              <br>If you have any concerns during the event, please reach out to the LMUHacks team or any other leaders at the event. Additionally, see <a href="https://studentaffairs.lmu.edu/media/studentaffairs/osccr/documents/1920-LMU-and-Community-Sexual-and-Interpersonal-Misconduct-Resource-Contact-List.pdf">here</a> for the general LMU contact list.
-                              <br>LMUHacks reserves the right to revise the Code of Conduct as needed, and to make any exceptions as deemed necessary.
-                         </p>
-                         <p>Have any additional questions? Email us at <a href="mailto:lmuacm0@gmail.com">LMUACM0@gmail.com</a></p>
-                    </div>
-                    <div class="section" id="who">
-                         <div class="sectionTitle">Who</div>
-                         <div class="person">
-                              <img src="./images/maddie.png"></img>
-                              <div class="personDescription">
-                                   <div class="personName">
-                                        Maddie Louis
-                                   </div>
-                                   <div class="personTitle">
-                                        Lead Organizer
-                                   </div>
-                                   Maddie is a current junior computer science major, and the co-president
-                                   of LMU's chapter of the Association of Computing Machinery. She has
-                                   interned at Google the past two summers in Kirkland, Washington, and
-                                   loves attending hackathons!
-                              </div>
-                              <img src="./images/adriana.jpeg"></img>
-                              <div class="personDescription">
-                                   <div class="personName">
-                                        Adriana Donkers
-                                   </div>
-                                   <div class="personTitle">
-                                        Lead Organizer
-                                   </div>
-                                   Adriana is a current junior computer science major, and vice president
-                                   of LMU ACM. She currently works at LMU's department of career and
-                                   professional development. Last summer, she interned at Pimco.
-                              </div>
-                              <img src="./images/talia.jpeg"></img>
-                              <div class="personDescription">
-                                   <div class="personName">
-                                        Talia Bahar
-                                   </div>
-                                   <div class="personTitle">
-                                        Organizer
-                                   </div>
-                                   Talia is a current junior computer science major. She was a
-                                   participant in LMU's CSSIx program in the summer of 2017, and
-                                   last summer worked as a TA for the CSSIx program.
-                              </div>
-                              <img src="./images/ian.jpeg"></img>
-                              <div class="personDescription">
-                                   <div class="personName">
-                                        Ian Lizarda
-                                   </div>
-                                   <div class="personTitle">
-                                        Organizer
-                                   </div>
-                                   Ian Lizarda is a current senior studying Computer Science. His
-                                   interests with in the field include application development and
-                                   UI/UX design. He interned at Atlassian in Mountain View, CA
-                                   this summer. He also likes playing volleyball,
-                                   piano, and League of Legends.
-                              </div>
-                              <img src="./images/maya.jpg"></img>
-                              <div class="personDescription">
-                                   <div class="personName">
-                                        Maya Pegler-Gordon
-                                   </div>
-                                   <div class="personTitle">
-                                        Organizer
-                                   </div>
-                                   Maya is a current junior computer science major. She is vice president
-                                   of LMU ACM, and is also on the e-board for LMU's Society of Women
-                                   Engineers. Additionally, last summer Maya was an intern at Uber.
-                              </div>
-                              <img src="./images/nico.jpg"></img>
-                              <div class="personDescription">
-                                   <div class="personName">
-                                        Nico Raymundo
-                                   </div>
-                                   <div class="personTitle">
-                                        Organizer
-                                   </div>
-                                   Nico Raymundo is a current junior studying Computer Science. He
-                                   has worked on independent projects like Playroll, a social music app.
-                                   Outside of computer science, he likes Travis Scott, the Golden State
-                                   warriors, and repping the Bay Area.
-                              </div>
-                         </div>
-                    </div>
-               </div>
+<body>
+  <section class="hero is-small">
+    <div id="content" class="content">
+      <div id="titleText" class="column is-1 is-pulled-left">
+        <h3 class="has-text-centered">LMU Hacks</h3>
+      </div>
+      <div class="is-pulled-right">
+        <nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
+          <div class="container">
+            <div class="navbar-brand">
+              <!-- <div class="navbar-item"></div> -->
+              <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarTopMain">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+            <div class="navbar-menu" id="navbarTopMain">
+              <div class="navbar-end">
+                <a href="index.html" class="navbar-item is-size-6 has-text-weight-semibold">Home</a>
+                <a href="signup.html" class="navbar-item is-size-6 has-text-weight-semibold">Sign Up</a>
+                <a href="aboutus.html" class="navbar-item is-size-6 has-text-weight-semibold">Collaborators</a>
+              </div>
+            </div>
           </div>
-     </body>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <div class="header">
+    <img id="logo" type="png" src="images/logo.png">
+  </div>
+  <section class="content-body">
+    <div class="columns is-centered is-variable is-2">
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="images/seaver.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">Details</p>
+            </div>
+          </div>
+          <a href="details.html" class="card-footer-item button is-dark is-centered">Go to Page</a>
+        </div>
+      </div>
+
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="images/forms.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">Register</p>
+            </div>
+          </div>
+          <a href="signup.html" class="card-footer-item button is-dark is-centered">Go to Page</a>
+        </div>
+      </div>
+
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="images/faq.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">FAQ</p>
+            </div>
+          </div>
+          <a href="faq.html" class="card-footer-item button is-dark is-centered">Go to Page</a>
+        </div>
+      </div>
+
+
+    </div>
+
+    
+    <div class="columns is-centered is-variable is-2">
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="images/sponsors-greyscale.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">Sponsors</p>
+            </div>
+          </div>
+          <a href="sponsors.html" class="card-footer-item button is-dark is-centered">Go to Page</a>
+        </div>
+      </div>
+
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="images/combined-clubs.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">Clubs</p>
+            </div>
+          </div>
+          <a href="clubs.html" class="card-footer-item button is-dark is-centered">Go to Page</a>
+        </div>
+      </div>
+
+      <div class="column is-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img src="images/acm-logo.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">About Us</p>
+            </div>
+          </div>
+          <a href="aboutus.html" class="card-footer-item button is-dark is-centered">Go to Page</a>
+        </div>
+      </div>
+
+
+    </div>
+    </section>
+
+
+
+
+
+
+  <script src="script.js" type="text/javascript" defer></script>
+</body>
+
 </html>
