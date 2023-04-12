@@ -1,127 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>LMU Hacks</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <section class="hero is-small">
-    <div id="content" class="content">
-      <div id="titleText" class="column is-1 is-pulled-left">
-        <h3 class="has-text-centered">LMU Hacks</h3>
-      </div>
-      <div class="is-pulled-right">
-        <nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
-          <div class="container">
-            <div class="navbar-brand">
-              <div class="navbar-item"></div>
-              <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                data-target="navbarTopMain">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-            </div>
-            <div class="navbar-menu" id="navbarTopMain">
-              <div class="navbar-end">
-                <a href="index.html" class="navbar-item is-size-6 has-text-weight-semibold">Home</a>
-                <a href="details.html" class="navbar-item is-size-6 has-text-weight-semibold">Details</a>
-                <a href="aboutus.html" class="navbar-item is-size-6 has-text-weight-semibold">Collaborators</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>LMU Hacks</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <section class="hero is-small">
+      <div id="content" class="content">
+        <div id="titleText" class="column is-1 is-pulled-left">
+          <h3 class="has-text-centered">LMU Hacks</h3>
+        </div>
+        <div class="is-pulled-right">
+          <nav
+            class="navbar is-transparent is-spaced"
+            role="navigation"
+            aria-label="main navigation"
+          >
+            <div class="container">
+              <div class="navbar-brand">
+                <div class="navbar-item"></div>
+                <a
+                  role="button"
+                  class="navbar-burger burger"
+                  aria-label="menu"
+                  aria-expanded="false"
+                  data-target="navbarTopMain"
+                >
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+              </div>
+              <div class="navbar-menu" id="navbarTopMain">
+                <div class="navbar-end">
+                  <a
+                    href="index.html"
+                    class="navbar-item is-size-6 has-text-weight-semibold"
+                    >Home</a
+                  >
+                  <a
+                    href="details.html"
+                    class="navbar-item is-size-6 has-text-weight-semibold"
+                    >Details</a
+                  >
+                  <a
+                    href="aboutus.html"
+                    class="navbar-item is-size-6 has-text-weight-semibold"
+                    >Collaborators</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </div>
+    </section>
+    <div class="header">
+      <img id="logo" type="png" src="images/logo.png" />
     </div>
-  </section>
-  <div class="header">
-    <img id="logo" type="png" src="images/logo.png">
-  </div>
 
-  <section class="text-page">
-    <div class="has-text-centered" style="color:black">
+    <section class="text-page">
+      <div class="has-text-centered" style="color: black">
         <h1 class="title-text"><strong>Details</strong></h1>
-        <h3 class="subtitle-text">
-            What is LMU Hacks?
-        </h3>
+        <h3 class="subtitle-text">What is LMU Hacks?</h3>
         <h5 class="text-padding">
-            LMUHacks is a hackathon at Loyola Marymount University (LMU) for LMU students, by LMU students! We are run by LMU's chapter of the Association for Computing Machinery (ACM), LMU's chapter of the Society of Women Engineers (SWE), LMU's chapter of the Institute of Electrical and Electronics Engineers (IEEE), LMU's chapter of the American Society of Mechanical Engineers (ASME), LMU's chapter of the National Society of Black Engineers (NSBE), and LMU's chapter of Quality of Life+ (QL+). Additionally, LMUHacks is supported by LMU's Seaver College of Science and Engineering.
+          LMUHacks is a hackathon at Loyola Marymount University (LMU) for LMU
+          students, by LMU students! We are run by LMU's chapter of the
+          Association for Computing Machinery (ACM), LMU's chapter of the
+          Society of Women Engineers (SWE), LMU's chapter of the Institute of
+          Electrical and Electronics Engineers (IEEE), LMU's chapter of the
+          American Society of Mechanical Engineers (ASME), LMU's chapter of the
+          National Society of Black Engineers (NSBE), and LMU's chapter of
+          Quality of Life+ (QL+). Additionally, LMUHacks is supported by LMU's
+          Seaver College of Science and Engineering.
         </h5>
 
-        <h3 class="subtitle-text">
-            What is a hackathon?
-        </h3>
+        <h3 class="subtitle-text">What is a hackathon?</h3>
         <h5 class="text-padding">
-            A hackathon is an event where a group of people (or "hackers") form small
-            teams and collaborate to build a minimum-viable product within a limited
-            period of time. Usually, teams are encouraged to build a project with
-            technology or resources that they are not familiar with, so that they can
-            learn as much as possible. At the end of the event, teams show off their
-            projects and can compete for prizes in a variety of categories.
+          A hackathon is an event where a group of people (or "hackers") form
+          small teams and collaborate to build a minimum-viable product within a
+          limited period of time. Usually, teams are encouraged to build a
+          project with technology or resources that they are not familiar with,
+          so that they can learn as much as possible. At the end of the event,
+          teams show off their projects and can compete for prizes in a variety
+          of categories.
         </h5>
 
-        <h3 class="subtitle-text">
-            Who can attend?
-        </h3>
+        <h3 class="subtitle-text">Who can attend?</h3>
         <h5 class="text-padding">
-            LMUHacks is open to all majors, but computer science, engineering,
-            and animation majors are specifically encouraged to attend! And, of
-            course, it is open to all years! No experience needed to attend!
+          LMUHacks is open to all majors, but computer science, engineering, and
+          animation majors are specifically encouraged to attend! And, of
+          course, it is open to all years! No experience needed to attend!
         </h5>
 
-
-        <h3 class="subtitle-text">
-            When?
-        </h3>
+        <h3 class="subtitle-text">When?</h3>
         <h5 class="text-padding">
-            LMUHacks will take place on April 15, from 9:30am to 10:30pm. The
-            schedule is as follows:
+          LMUHacks will take place on April 15, from 9:30am to 10:30pm. The
+          schedule is as follows:
         </h5>
-        <div><strong>
-            <p>9:30am - Check-in begins / Breakfast</p>
-            <p>10am-10:30am - Opening ceremony + Project Guidelines</p>
-            <p>10:30am - Hacking begins</p>
-            <p>10:30am-11:00am - Team building/formation in Pereira Quad</p>
-            <p>11am-12pm - CS - Intro to Web App with Dr. Toal</p>
-            <p>11am-12pm - ME/EE - Intro to Electro-Mechanical Track - led by Lauren</p>
-            <p>11am-12pm - CS - Intro to Game Dev with Jason & Kira</p>
-            <p>12:00pm - 1:00pm - Lunch</p>
-            <p>12:00pm - 12:30pm - Lunch/Meet & Greet with sponsor in Pereira Quad *REQUIRED</p>
-            <p>12:30pm - 12:35pm - Picture in Pereira Quad *REQUIRED</p>
-            <p>12:35-1pm - Optional Networking with sponsor</p>
-            <p>1:00pm - 2:00pm - EE - TBD </p>
-            <p>2:00pm - 3:00pm - CS - Backend Applications: API's and Firebase with Dr. Dionisio</p>
-            <p>3:00pm - 4:00 pm - Pereira Quad - Volleyball</p>
-            <p>4:00pm - 5:00 pm - CS - TBD </p>
-            <p>4:00pm - 5:00pm - ME - TBD</p>
-            <p>5:00 - 6:00 pm - Intro to Networks - TechEmpower *REQUIRED  </p>
-            <p>6:00pm-7:00pm - Dinner in Pereira Quad</p>
-            <p>7:00pm-7:30pm - Everyone - Pitch Workshop with TBD </p>
-            <p>8:00pm - Student deadline to submit projects</p>
-            <p>8:15pm - Judging begins</p>
-            <p>9:30pm - Judges start deciding results</p>
-            <p class="text-padding">9:45pm - Closing Ceremony</p>
-        </strong>
+        <div>
+          <div class="schedule">
+            <table class="schedule-table">
+              <tr>
+                <th>Time</th>
+                <th>Location</th>
+                <th>Event</th>
+              </tr>
+              <tr>
+                <td>9:30am–10am</td>
+                <td>Front of Pereira</td>
+                <td>Check In and Breakfast</td>
+              </tr>
+              <tr>
+                <td>10:00am–10:30am</td>
+                <td>Pereira 140</td>
+                <td>Opening Ceremony</td>
+              </tr>
+              <tr>
+                <td>10:30am</td>
+                <td>Anywhere</td>
+                <td>Hacking Begins!</td>
+              </tr>
+              <tr>
+                <td>10:30am–11:00am</td>
+                <td>Pereira Quad</td>
+                <td>Team Formation/Team Building</td>
+              </tr>
+              <tr>
+                <td>11:00am–12:00pm</td>
+                <td>Multiple Locations</td>
+                <td>Workshops</td>
+              </tr>
+              <tr>
+                <td>12:00pm–12:30pm*</td>
+                <td>Pereira Quad</td>
+                <td>Lunch + Meet & Greet with Sponsor</td>
+              </tr>
+              <tr>
+                <td>12:30–12:35pm*</td>
+                <td>Pereira Quad</td>
+                <td>Group Picture</td>
+              </tr>
+              <tr>
+                <td>12:35pm–1:00pm*</td>
+                <td>Pereira Quad</td>
+                <td>Meet & Greet with Sponsor</td>
+              </tr>
+              <tr>
+                <td>1:00pm–5:00pm</td>
+                <td>Multiple Locations</td>
+                <td>Workshops</td>
+              </tr>
+              <tr>
+                <td>5:00pm–6:00pm**</td>
+                <td>Pereira 140</td>
+                <td>Workshop with Sponsor</td>
+              </tr>
+              <tr>
+                <td>6:00pm–7:00pm</td>
+                <td>Pereira Quad</td>
+                <td>Dinner</td>
+              </tr>
+              <tr>
+                <td>7:00pm–7:30pm</td>
+                <td>Pereira 140</td>
+                <td>Final Workshop</td>
+              </tr>
+              <tr>
+                <td>8:00pm</td>
+                <td>Google Form</td>
+                <td>Project Submissions Due</td>
+              </tr>
+              <tr>
+                <td>8:00pm–9:30pm</td>
+                <td>Pereira 140</td>
+                <td>Project Judging</td>
+              </tr>
+              <tr>
+                <td>9:30pm–9:45pm</td>
+                <td>Pereira 109</td>
+                <td>Judge Deliberations</td>
+              </tr>
+              <tr>
+                <td>9:45pm–10:00pm</td>
+                <td>Pereira 140</td>
+                <td>Results + Closing Ceremony</td>
+              </tr>
+            </table>
+          </div>
+          <div class="schedule-details">
+            <p>* Required event</p>
+            <p>** At least one person from each team must attend</p>
+          </div>
+
+          <div class="subtitle-text">Workshops</div>
+          <div>Gain some new skills in these 1 hour workshops!</div>
+          <table class="schedule-table" id="workshop-table">
+            <tr>
+              <th>Time</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Location</th>
+              <th>Track</th>
+            </tr>
+            <tr>
+              <td>11:00am</td>
+              <td>Intro to Web Development</td>
+              <td>
+                Have you ever wanted to build a website? Do you have questions
+                about React? Come join this workshop to learn the basics of Web
+                Development with Dr. Toal just bring your laptop!
+              </td>
+              <td>Pereira 140</td>
+              <td class="cs">CS</td>
+            </tr>
+            <tr>
+              <td>11:00am</td>
+              <td>Intro to Game Development</td>
+              <td>
+                Are you a game enthusiast? Come learn how to create your own
+                game from scratch with LMU ACM. Please download Unity before
+                attending.
+              </td>
+              <td>Doolan 219</td>
+              <td class="cs">CS</td>
+            </tr>
+            <tr>
+              <td>11:00am</td>
+              <td>Intro to the ElectroMechanical Track</td>
+              <td>
+                Confused about the ElectroMechanical track? This workshop is for
+                you! This workshop will go into detail about project
+                requirements and prompts.
+              </td>
+              <td>Pereira 109</td>
+              <td class="eeme">EE & ME</td>
+            </tr>
+            <tr>
+              <td>1:00pm</td>
+              <td>TBD</td>
+              <td>Join IEEE in a fun workshop!</td>
+              <td>EE Lab</td>
+              <td class="ee">EE</td>
+            </tr>
+            <tr>
+              <td>2:00pm</td>
+              <td>Backend Applications: APIs and Firebase</td>
+              <td>
+                Do you want to add an API or Firebase to your application? Are
+                you having problems connecting to the backend of your
+                application? This workshop is for you! Come join Dr. Dionisio
+                and please bring your laptop!
+              </td>
+              <td>Pereira 140</td>
+              <td class="cs">CS</td>
+            </tr>
+            <tr>
+              <td>3:00pm</td>
+              <td>Volleyball!</td>
+              <td>
+                Need a break? LMU ACM will be setting up the volleyball net in
+                Pereira Quad and teaching volleyball basics! Come for a fun,
+                destressing time.
+              </td>
+              <td>Pereira Quad</td>
+              <td class="all">All</td>
+            </tr>
+            <tr>
+              <td>4:00pm</td>
+              <td>Careers in CS</td>
+              <td>
+                Are you curious about what kinds of careers exist in CS? Join
+                LMU NSBE to learn about the various career paths.
+              </td>
+              <td>Pereira 140</td>
+              <td class="cs">CS</td>
+            </tr>
+            <tr>
+              <td>4:00pm</td>
+              <td>Careers in Engineering</td>
+              <td>
+                Are you curious about what kinds of careers exist in
+                Engineering? Join one of our amazing volunteers, Tom Nobal, to
+                learn about the various career paths.
+              </td>
+              <td>Pereira 109</td>
+              <td class="eeme">EE & ME</td>
+            </tr>
+            <tr>
+              <td>5:00pm**</td>
+              <td>Intro to Networks</td>
+              <td>
+                Curious about how the internet works? Come learn about HTTP,
+                TCP, and IP with TechEmpower!
+              </td>
+              <td>Pereira 140</td>
+              <td>All</td>
+            </tr>
+            <tr>
+              <td>7:00pm-7:30pm</td>
+              <td>Pitch Workshop</td>
+              <td>
+                Unsure how to pitch your project? Join this workshop and learn
+                how with LMU ACM.
+              </td>
+              <td>Pereira 140</td>
+              <td>All</td>
+            </tr>
+          </table>
+          <div class="schedule-details">
+            <p>** At least one person from each team must attend</p>
+          </div>
         </div>
 
-
-
-        <h3 class="subtitle-text">
-            Where?
-        </h3>
+        <h3 class="subtitle-text">Where?</h3>
         <h5>
-            LMUHacks will take place in and around Pereira Quad. Specifically,
-            in Doolan Hall and Pereira Hall.
+          LMUHacks will take place in and around Pereira Quad. Specifically, in
+          Doolan Hall and Pereira Hall.
         </h5>
-        <a href="https://www.lmu.edu/resources/campusmaps/interactivewestchestercampusmap/" class="text-padding">Map of LMU</a>
+        <a
+          href="https://www.lmu.edu/resources/campusmaps/interactivewestchestercampusmap/"
+          class="text-padding"
+          >Map of LMU</a
+        >
 
-        <h3 class="subtitle-text">
-            What are the categories?
-        </h3>
+        <h3 class="subtitle-text">What are the categories?</h3>
 
         <p>The categories are:</p>
         <p>Best Overall</p>
@@ -131,28 +344,17 @@
         <p>Best in Electromechanical</p>
         <p class="text-padding">Second Best in Electromechanical</p>
 
-        <h3 class="subtitle-text">
-            Questions?
-        </h3>
+        <h3 class="subtitle-text">Questions?</h3>
         <a href="faq.html" class="text-padding">Head to the FAQ</a>
+      </div>
+    </section>
 
-            
-            
-            
-            
+    <section>
+      <div class="bottom">
+        <a onclick="sendToTop()" class="up-arrow bottom-corner"></a>
+      </div>
+    </section>
 
-    </div>
-
-    
-  </section>
-
-  <section>
-    <div class="bottom">
-      <a onclick = sendToTop() class="up-arrow bottom-corner"></a>
-    </div>
-  </section>
-
-  <script src="script.js" type="text/javascript" defer></script>
-</body>
-
+    <script src="script.js" type="text/javascript" defer></script>
+  </body>
 </html>
