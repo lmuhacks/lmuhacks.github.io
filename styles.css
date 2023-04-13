@@ -116,3 +116,11 @@ body {
 .card {
   padding: 15px;
 }
+
+#workshop-table {
+  overflow-x: scroll;
+}
+
+#logo {
+  width: 75%;
+}
